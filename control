@@ -1,6 +1,6 @@
 Package: com.kome1.fude
 Name: Fude
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm
 Description: Change Homebar Color (In-app only)
 Maintainer: kome1

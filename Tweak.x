@@ -25,7 +25,7 @@ static void loadPrefs() {
 %ctor {
     loadPrefs();
     CFNotificationCenterAddObserver(CFNotificationCenterGetDarwinNotifyCenter(), NULL, (CFNotificationCallback)loadPrefs, CFSTR("com.kome1.fude/saved"), NULL, CFNotificationSuspensionBehaviorCoalesce);
-	if (enabled == YES) {
+	if (enabled) {
 		%init(Tweak);
 	}
 }
