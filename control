@@ -1,0 +1,9 @@
+Package: com.kome1.fude
+Name: Fude
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Change Homebar Color (In-app only)
+Maintainer: kome1
+Author: kome1
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.spark.libsparkcolourpicker
